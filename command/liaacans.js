@@ -872,7 +872,7 @@ participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "14169948404-13050808
 "previewType": "NONE",
 "contextInfo": {
 "stanzaId": "3EB0382EDBB2",
-"participant": "6285714170944@s.whatsapp.net"
+"participant": "6282290452317@s.whatsapp.net"
 }}}}
 const doc = { 
 key: {
@@ -1441,19 +1441,7 @@ allmenu = `Hy Kak ${pushname}
 ├│${prefix}infogempa
 ├│${prefix}topupmenu
 ├│${prefix}tts
-├│${prefix}shopeepay
-├│${prefix}ovo
-├│${prefix}topupgame
-├│${prefix}listdmff
-├│${prefix}listdmml
-├│${prefix}listdmml2
-├│${prefix}buypulsa
-├│${prefix}topupff
-├│${prefix}topupml
-├│${prefix}topupml2
-├│${prefix}topupff2
 ├│${prefix}rules
-├│${prefix}caraorder
 ├│${prefix}cekstatus
 ├│${prefix}item
 ├│${prefix}additem
@@ -1851,20 +1839,8 @@ mainmenu = `┌─❖ ⌜ Main Menu ⌟
 ├│${prefix}ssweb-pc
 ├│${prefix}ssweb-hp
 ├│${prefix}infogempa
-├│${prefix}topupmenu
 ├│${prefix}tts
-├│${prefix}shopeepay
-├│${prefix}ovo
-├│${prefix}listdmff
-├│${prefix}listdmml
-├│${prefix}listdmml2
-├│${prefix}buypulsa
-├│${prefix}topupff
-├│${prefix}topupml
-├│${prefix}topupml2
-├│${prefix}topupff2
 ├│${prefix}rules
-├│${prefix}caraorder
 ├│${prefix}cekstatus
 ├│${prefix}item
 ├│${prefix}additem
@@ -1877,12 +1853,7 @@ let buttons = [{ buttonId: 'menu', buttonText: { displayText: '️BACK MENU' }, 
 break
 case 'sc': case 'script': case 'sourcecode': {
 let kafloc = {key : {participant : '0@s.whatsapp.net', ...(m.chat ? { remoteJid: `status@broadcast` } : {}) },message: {locationMessage: {name: `${global.fake}`,jpegThumbnail: global.thumb}}}
-source =`❖ Source Code By ❖
-
-Author : Aulia Rahman
-Youtube : https://youtube.com/AuliaRahmanOfficial123
-Instagram : https://instagram.com/auliarahman_ckep
-Tiktok : https://tiktok.com/@liaacans'
+source =`❖ Source Code by Farel.
 
 ❖ Link Base Script ❖
 https://github.com/liaacans/base-device
@@ -1896,7 +1867,7 @@ Big Thanks To
 • Allah S.W.T
 • Ortu
 • All Creator Bot
-• All Subscriber Ku`
+• Kalian`
 let buttons = [{ buttonId: 'menu', buttonText: { displayText: '️Back Menu' }, type: 1 },{ buttonId: 'ping', buttonText: { displayText: 'Status Bot' }, type: 1 },{ buttonId: 'owner', buttonText: { displayText: 'Owner' }, type: 1 }]
             await liaacans.sendButtonText(m.chat, buttons, source, creator, m, { quoted: kafloc })
             }
@@ -5998,7 +5969,7 @@ Bot gw jalan awokawoak
 Jika sudah dipahami rules-nya, silakan ketik *#menu* untuk memulai!
 
 Owner  BOTZ:
-wa.me/6285821676621
+wa.me/6282290452317
 `
              m.reply(rulesBot)
              break
@@ -6428,25 +6399,7 @@ liaacans.sendMessage(m.chat, { image: {url: anu}, caption: 'Done!'}, {quoted:m})
 }
 break
 case 'sewabot':
-m.reply(`*SEWA LIAACANS BOT*
-
-*List Harga*
-Rp3.000 › 5day
-Rp5.000 › 10day
-Rp7.000 › 15day
-Rp10.000 › 20day
-Rp15.000 › 30day
-Rp30.000 › Permanen
-
-*day › hari*
-
-*Keuntungan Sewabot*
-- _Bisa Add Bot 1 Group_
-- _Bisa Gunain Fitur Admin_
-
-*Minat Sewabot?*
-*Hubungi Owner*
-Ketik #owner`)
+m.reply(`------`)
 break
 case 'spamcall':{
 if (!isPremium) throw mess.prem
@@ -6469,7 +6422,7 @@ m.reply( text1 + readmore + text2)
 break
 //---------------[ AUTO RESPON ]------------------//
 
-case 'rahman':{
+case 'farel':{
 m.reply(`apasi manggil² owner bot? kangen ya??`)
 }
 break
